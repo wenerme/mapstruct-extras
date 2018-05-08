@@ -5,7 +5,7 @@
     <groupId>com.github.wenerme.mapstruct-extras</groupId>
     <artifactId>mapstruct-extras</artifactId>
     <packaging>pom</packaging>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
     <modules>
         <module>proto-processor</module>
         <!--<module>proto-processor-test</module>-->
@@ -129,7 +129,7 @@
         <developerConnection>scm:git:https://github.com/wenerme/mapstruct-extras.git
         </developerConnection>
         <url>http://github.com/wenerme/mapstruct-extras</url>
-        <tag>v0.0.1</tag>
+        <tag>HEAD</tag>
     </scm>
 
 </project>
