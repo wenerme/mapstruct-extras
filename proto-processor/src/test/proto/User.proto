@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+
+option java_package = "com.github.wenerme.mapstruct";
+option java_outer_classname = "UserProtos";
+
+message UserDTO {
+    string id = 1;
+    string email = 2;
+
+    repeated PermissionDTO permissions = 3;
+    repeated AddressDTO addresses = 4;
+}
+
+message AddressDTO {
+    string zip = 1;
+    string street = 2;
+    repeated ContactDTO contacts = 3;
+}
+
+message ContactDTO {
+    string name = 1;
+    string phone = 2;
+}
+
+enum PermissionDTO {
+    NONE = 0;
+    USER = 1;
+    ADMIN = 2;
+}
